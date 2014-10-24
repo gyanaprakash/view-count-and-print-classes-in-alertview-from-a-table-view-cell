@@ -14,6 +14,10 @@
 		BCE9A89F19F62889005C0744 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE9A89E19F62889005C0744 /* Images.xcassets */; };
 		BCE9A8A219F62889005C0744 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE9A8A019F62889005C0744 /* LaunchScreen.xib */; };
 		BCE9A8AE19F62889005C0744 /* TableviewCellTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE9A8AD19F62889005C0744 /* TableviewCellTestTests.m */; };
+		BCE9A8B819F628A1005C0744 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE9A8B719F628A1005C0744 /* ViewController.xib */; };
+		BCE9A8C319F62FA4005C0744 /* tableviewcell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE9A8C119F62FA4005C0744 /* tableviewcell.m */; };
+		BCE9A8C419F62FA4005C0744 /* tableviewcell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE9A8C219F62FA4005C0744 /* tableviewcell.xib */; };
+		BCE9A8C619F64A3D005C0744 /* 2014-09-23 11.26.51.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCE9A8C519F64A3D005C0744 /* 2014-09-23 11.26.51.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		BCE9A8A719F62889005C0744 /* TableviewCellTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableviewCellTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE9A8AC19F62889005C0744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCE9A8AD19F62889005C0744 /* TableviewCellTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableviewCellTestTests.m; sourceTree = "<group>"; };
+		BCE9A8B719F628A1005C0744 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = ../ViewController.xib; sourceTree = "<group>"; };
+		BCE9A8C019F62FA4005C0744 /* tableviewcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tableviewcell.h; path = ../tableviewcell.h; sourceTree = "<group>"; };
+		BCE9A8C119F62FA4005C0744 /* tableviewcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tableviewcell.m; path = ../tableviewcell.m; sourceTree = "<group>"; };
+		BCE9A8C219F62FA4005C0744 /* tableviewcell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = tableviewcell.xib; path = ../tableviewcell.xib; sourceTree = "<group>"; };
+		BCE9A8C519F64A3D005C0744 /* 2014-09-23 11.26.51.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2014-09-23 11.26.51.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,7 @@
 		BCE9A88519F62889005C0744 = {
 			isa = PBXGroup;
 			children = (
+				BCE9A8C519F64A3D005C0744 /* 2014-09-23 11.26.51.jpg */,
 				BCE9A89019F62889005C0744 /* TableviewCellTest */,
 				BCE9A8AA19F62889005C0744 /* TableviewCellTestTests */,
 				BCE9A88F19F62889005C0744 /* Products */,
@@ -85,9 +95,13 @@
 				BCE9A89619F62889005C0744 /* AppDelegate.m */,
 				BCE9A89819F62889005C0744 /* ViewController.h */,
 				BCE9A89919F62889005C0744 /* ViewController.m */,
+				BCE9A8B719F628A1005C0744 /* ViewController.xib */,
 				BCE9A89B19F62889005C0744 /* Main.storyboard */,
 				BCE9A89E19F62889005C0744 /* Images.xcassets */,
 				BCE9A8A019F62889005C0744 /* LaunchScreen.xib */,
+				BCE9A8C019F62FA4005C0744 /* tableviewcell.h */,
+				BCE9A8C119F62FA4005C0744 /* tableviewcell.m */,
+				BCE9A8C219F62FA4005C0744 /* tableviewcell.xib */,
 				BCE9A89119F62889005C0744 /* Supporting Files */,
 			);
 			path = TableviewCellTest;
@@ -201,7 +215,10 @@
 			files = (
 				BCE9A89D19F62889005C0744 /* Main.storyboard in Resources */,
 				BCE9A8A219F62889005C0744 /* LaunchScreen.xib in Resources */,
+				BCE9A8B819F628A1005C0744 /* ViewController.xib in Resources */,
+				BCE9A8C419F62FA4005C0744 /* tableviewcell.xib in Resources */,
 				BCE9A89F19F62889005C0744 /* Images.xcassets in Resources */,
+				BCE9A8C619F64A3D005C0744 /* 2014-09-23 11.26.51.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCE9A89A19F62889005C0744 /* ViewController.m in Sources */,
+				BCE9A8C319F62FA4005C0744 /* tableviewcell.m in Sources */,
 				BCE9A89719F62889005C0744 /* AppDelegate.m in Sources */,
 				BCE9A89419F62889005C0744 /* main.m in Sources */,
 			);
