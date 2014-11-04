@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B7E6A9EC-1C63-4F56-9898-BB835D7D7DC6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TableviewCellTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0B2C8736A28D02B0A6D8179A529E86B623C29090</key>
+		<string>https://github.com/gyanaprakash/view-count-and-print-classes-in-alertview-from-a-table-view-cell.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TableviewCellTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0B2C8736A28D02B0A6D8179A529E86B623C29090</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gyanaprakash/view-count-and-print-classes-in-alertview-from-a-table-view-cell.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0B2C8736A28D02B0A6D8179A529E86B623C29090</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0B2C8736A28D02B0A6D8179A529E86B623C29090</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TableviewCellTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
